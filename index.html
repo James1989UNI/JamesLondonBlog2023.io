@@ -1,14 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <body>
   <head>
     <title>James Roskell BSC blog </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
   </head>
     <main>
       <h1> James Roskell BSC Trip To London 2023 </h1>
       <section><h2>London 2023</h2>
-        <!-- TODO: add photos of london  -->
-        <a href=""><img src="james2023.JPG" width="200" height="200"alt="Placeholder for a london picture "></a>
+        <!-- TODO: add photos of london - styling to  complete   -->
+        <a href=""> <img src="100_3020.JPG" width="200" height="200"alt="Placeholder for a london picture "></a>
       </section>
       <section>
         <h2>Locations Visited June </h2>
@@ -43,10 +46,13 @@
           <figcaption> <strong><h3> Things to see   </h3></strong> </figcaption>  
           <img src="londonbus.JPG" width="400" height="200" alt="Placeholder for a london picture">
         </figure>
+        <figure> 
+          <img src="park.JPG" width="400" height="200" alt="Placeholder for a london picture">
+        </figure>
       </section>
       <section>
-        <h2>London Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <h2>London Survey Form</h2>
+        <form action="mailto:JamesRoskell1@yahoo.com">
           <fieldset>
             <legend>What is your best thing to do in London? </legend>
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Museum</label>
@@ -58,6 +64,10 @@
             <input id="Museum cafe" type="radio" name="personality" value="Museum cafe"> <label for="Museum cafe"> Museum cafe</label>
             <input id="Other" type="radio" name="personality"> <label for="Other" value="Other"> Other </label>
           </fieldset>
+          <fieldset>
+            <label>Upload a London picture: <input type="file" /></label>
+            <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+          </fieldset>
           <input type="text" name="londonphotourl" placeholder="London Photo URL" required>
           <button type="submit">Submit</button>
         </form>
@@ -67,9 +77,6 @@
         Copyright - <a href="">James Roskell BSC 2023 London Blog</a>
         </p>
       </footer>
-
-
-
     </main>
   </body>
 </html>
