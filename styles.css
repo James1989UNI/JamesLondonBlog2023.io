@@ -1,18 +1,35 @@
-body{
-background-image:  ("londonbus.JPG");
-background-color: rgb(75, 75, 73);
-}
-h1,h2, h3,p, li, form {
+
+h1,h2, h3,p, li {
       text-align: center;
       margin: auto;
      color: antiquewhite;
      padding: 0.5rem;
+     border: 0;
+     font-family: Tahoma;
+     font-size: 20px;
 }
 img {
-      padding: 40;
-      align-items: center;
-      
-}
+      width: 20%;
+      border: 5px solid blue;
+      padding: 5px 5px 5px 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
 footer {
       align-items: center;
 }
+body{
+      background-color: rgb(75, 75, 73);
+      border: 0;
+ }
+ fieldset {
+      border: 0;
+      padding: 2rem 0;
+ }
+ form {
+      width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+ }
